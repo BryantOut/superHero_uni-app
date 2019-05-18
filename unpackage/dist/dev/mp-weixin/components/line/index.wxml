@@ -1,0 +1,1 @@
+<view class="line" bind:__l="__l"></view>

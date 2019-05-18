@@ -1,0 +1,22 @@
+.hot-part >.title {
+	margin-bottom: 12upx;
+	line-height: 50upx;
+	box-sizing: border-box;
+}
+
+.hot-part .title image {
+	width: 30upx;
+	height: 30upx;
+	/* vertical-align: bottom; */
+	margin-top: 15upx;
+	margin-right: 12upx;
+	margin-left: 10upx;
+}
+
+.hot-part .title span {
+	line-height: 50upx;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 10upx;
+}
+

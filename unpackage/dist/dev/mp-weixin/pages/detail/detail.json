@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "电影详情页",
+  "usingComponents": {
+    "part1": "/components/detail/part1/index",
+    "part2": "/components/detail/part2/index",
+    "part3": "/components/detail/part3/index",
+    "part4": "/components/detail/part4/index",
+    "m-line": "/components/line/index"
+  }
+}

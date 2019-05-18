@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "score-card": "/components/detail/scoreCard/index"
+  },
+  "component": true
+}
