@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # uni-app项目实践一：《超英预告》
 
 ## 接口文档
@@ -10,7 +9,7 @@ https://www.imovietrailer.com/superhero/doc.html
 ## 项目线上地址
 
 ```
-http://www.imovietrailer.com/#/
+http://129.28.149.194
 ```
 
 ## 项目待解决问题
@@ -179,6 +178,3 @@ appOAuthLogin(e) {
 ### 分享功能
 
 ### 项目发布与上线
-=======
-# MarvelRec
->>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
