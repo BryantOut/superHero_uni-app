@@ -1,0 +1,1 @@
+<view class="block" bind:__l="__l"><block wx:if="{{currentPic!==null}}"><image src="{{currentPic}}" mode="widthFix" data-event-opts="{{[['longpress',[['operate']]]]}}" bindlongpress="__e"></image></block></view>

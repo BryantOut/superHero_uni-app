@@ -1,0 +1,62 @@
+.hot-part >.title {
+	margin-bottom: 12upx;
+	line-height: 50upx;
+	box-sizing: border-box;
+}
+
+.hot-part .title image {
+	width: 30upx;
+	height: 30upx;
+	/* vertical-align: bottom; */
+	margin-top: 15upx;
+	margin-right: 12upx;
+	margin-left: 10upx;
+}
+
+.hot-part .title span {
+	line-height: 50upx;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 10upx;
+}
+
+.hot-part .itemBox {
+	width: 100%;
+	white-space: nowrap;
+}
+
+.hot-part .itemBox .item {
+	display: inline-block;
+	margin-right: 20upx;
+}
+
+.hot-part .itemBox image {
+	width: 200upx;
+	height: 270upx;
+}
+
+.hot-part .itemBox .title {
+	width: 200upx;
+	margin-top: 10upx;
+	font-size: 14px;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.hot-part .itemBox .startBox {
+	display: flex;
+}
+
+.hot-part .itemBox .startBox image {
+	width: 20upx;
+	height: 20upx;
+	margin-top: 6upx;	
+}
+
+.hot-part .itemBox .startBox .movice-score {
+	font-size: 12px;
+	color: grey;
+	margin-left: 8upx;
+}

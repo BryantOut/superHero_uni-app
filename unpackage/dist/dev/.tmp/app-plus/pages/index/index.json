@@ -1,0 +1,12 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "首页",
+  "navigationBarBackgroundColor": "#ffd655",
+  "titleNView": false,
+  "usingComponents": {
+    "hot-part": "/components/index/hot-part/index",
+    "notice-part": "/components/index/hot-Notice/index",
+    "guess-you-like": "/components/index/guessYouLike/index"
+  }
+}

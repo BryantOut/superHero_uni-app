@@ -1,0 +1,1 @@
+<view class="page data-v-273a2e32" bind:__l="__l"><block wx:if="{{dataLoad}}"><part3 plotPics="{{plotPics}}" class="data-v-273a2e32"></part3></block></view>

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/me/me",
+    "pages/detail/detail",
+    "pages/cover/cover",
+    "pages/registerOrLogin/registerOrLogin",
+    "pages/infoEditor/infoEditor",
+    "pages/choseFacePic/choseFacePic",
+    "pages/faceCrop/faceCrop",
+    "pages/modifyNickname/modifyNickname",
+    "pages/modifyBirthday/modifyBirthday",
+    "pages/setSex/setSex"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Bryant超英预告",
+    "navigationBarBackgroundColor": "#ffd655",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#515151",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabBarIco/index.png",
+        "selectedIconPath": "static/tabBarIco/index_sel.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "static/tabBarIco/search.png",
+        "selectedIconPath": "static/icos/search.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/tabBarIco/me.png",
+        "selectedIconPath": "static/tabBarIco/me_sel.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
