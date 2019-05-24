@@ -99,9 +99,14 @@
 			}
 		},
 		onShow() {
+<<<<<<< HEAD
 			let me = this
 			// 用户状态切换
 			let globalUser = me.getGlobalUser('globalUser')
+=======
+			// 用户状态切换
+			let globalUser = uni.getStorageSync('globalUser')
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 			this.globalUser = globalUser
 		},
 		methods: {
@@ -131,6 +136,7 @@
 					}
 					// this.carouselList = res.data
 				})
+<<<<<<< HEAD
 			},
 			operator() {
 				let me = this
@@ -186,6 +192,8 @@
 				uni.navigateTo({
 					url: "../setSex/setSex"
 				})
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 			}
 		}
 	}

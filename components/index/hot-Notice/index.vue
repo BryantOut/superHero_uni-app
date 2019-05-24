@@ -7,12 +7,20 @@
 		<div class="videosBox">
 			<video :src="item.trailer"
 					:id="item.id"
+<<<<<<< HEAD
 					:data-playingindex="item.id"
+=======
+					:show-progress="false"
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 					v-for="item in superheroTrailerList" 
 					:key="item.id" 
 					:poster="item.poster" 
 					class="hot-movie-single"
+<<<<<<< HEAD
 					@play="onlyYPlay"
+=======
+					@play="onlyYPlay(item.id)"
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 					controls>
 			</video>
 		</div>
@@ -27,6 +35,7 @@
 		props: ['superheroTrailerList'],
 		data() {
 			return {
+<<<<<<< HEAD
 				currVideoContext: '',
 				videoContextList: []
 			}
@@ -47,6 +56,19 @@
 					var tempId = superheroTrailerList[i].id
 					if (currentVideoId != tempId) {
 						console.log(tempId)
+=======
+				currVideoContext: ''
+			}
+		},
+		methods:{
+			// 播放一个视频的时候，需要暂停其他正在播放的视频
+			onlyYPlay(currentVideoId) {	
+				this.currVideoContext = uni.createVideoContext(currentVideoId)
+				let superheroTrailerList = this.superheroTrailerList
+				for (let i=0;i<superheroTrailerList.length;i++) {
+					var tempId = superheroTrailerList[i].id
+					if (currentVideoId != superheroTrailerList[i].id) {				
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 						uni.createVideoContext(tempId).pause()
 					}
 				}

@@ -70,6 +70,7 @@ _vue.default.prototype.getGlobalUser = function (key) {
   }
 };
 
+<<<<<<< HEAD
 // import VueLazyload  from "vue-lazyload"
 // Vue.use(VueLazyload, {
 //   src: 'https://webimg.yangk6668.com/webimg/m/img/image/defunt_pic.gif',
@@ -78,6 +79,8 @@ _vue.default.prototype.getGlobalUser = function (key) {
 // })
 // Vue.use(VueLazyload
 // )
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 
 _App.default.mpType = 'app';
 
@@ -90,6 +93,7 @@ createApp(app).$mount();
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FchoseFacePic%2FchoseFacePic\"}":
 /*!********************************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2FchoseFacePic%2FchoseFacePic"} ***!
@@ -107,6 +111,8 @@ createPage(_choseFacePic.default);
 
 /***/ }),
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2Fcover%2Fcover\"}":
 /*!******************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2Fcover%2Fcover"} ***!
@@ -141,6 +147,7 @@ createPage(_detail.default);
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FfaceCrop%2FfaceCrop\"}":
 /*!************************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2FfaceCrop%2FfaceCrop"} ***!
@@ -158,6 +165,8 @@ createPage(_faceCrop.default);
 
 /***/ }),
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2Findex%2Findex\"}":
 /*!******************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2Findex%2Findex"} ***!
@@ -209,6 +218,7 @@ createPage(_me.default);
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FmodifyBirthday%2FmodifyBirthday\"}":
 /*!************************************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2FmodifyBirthday%2FmodifyBirthday"} ***!
@@ -243,6 +253,8 @@ createPage(_modifyNickname.default);
 
 /***/ }),
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FregisterOrLogin%2FregisterOrLogin\"}":
 /*!**************************************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2FregisterOrLogin%2FregisterOrLogin"} ***!
@@ -277,6 +289,7 @@ createPage(_search.default);
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FsetSex%2FsetSex\"}":
 /*!********************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2FsetSex%2FsetSex"} ***!
@@ -294,6 +307,8 @@ createPage(_setSex.default);
 
 /***/ }),
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 /***/ "../../../../../../../gitFile/next-superhero-dev/pages.json":
 /*!************************************************!*\
   !*** C:/gitFile/next-superhero-dev/pages.json ***!
@@ -769,7 +784,11 @@ function getData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
+<<<<<<< HEAD
       if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+=======
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -6865,7 +6884,11 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
+<<<<<<< HEAD
         if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+=======
+        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -6886,14 +6909,22 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
+<<<<<<< HEAD
         if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+=======
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
+<<<<<<< HEAD
         if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+=======
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -6962,7 +6993,11 @@ var patch = function(oldVnode, vnode) {
         });
         var diffData = diff(data, mpData);
         if (Object.keys(diffData).length) {
+<<<<<<< HEAD
             if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+=======
+            if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
                 console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
                     ']差量更新',
                     JSON.stringify(diffData));

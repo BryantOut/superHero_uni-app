@@ -80,7 +80,21 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default =
+<<<<<<< HEAD
 {};exports.default = _default;
+=======
+{
+  // onLaunch: function() {
+  // 	console.log('App Launch')
+  // },
+  // onShow: function() {
+  // 	console.log('App Show')
+  // },
+  // onHide: function() {
+  // 	console.log('App Hide')
+  // }
+};exports.default = _default;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 
 /***/ }),
 

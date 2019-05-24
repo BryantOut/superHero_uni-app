@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <view class="staff _div" bind:__l="__l"><view class="title _div">剧组成员</view><scroll-view class="scroll-view_H itemBox" scroll-x="true"><block wx:for="{{staffList}}" wx:for-item="item" wx:for-index="index" wx:key="staffId"><view class="item _div"><image src="{{item.photo}}" mode lazy-load data-event-opts="{{[['tap',[['showBigPic',[index]]]]]}}" bindtap="__e"></image><view class="name _div">{{item.name}}</view><view class="actName _div">{{item.actName}}</view><view class="role _div">{{item.role==2?'演员':'导演'}}</view></view></block></scroll-view></view>
+=======
+<view class="staff _div" bind:__l="__l"><view class="title _div">剧组成员</view><scroll-view class="scroll-view_H itemBox" scroll-x="true"><block wx:for="{{staffList}}" wx:for-item="item" wx:for-index="index" wx:key="staffId"><view class="item _div"><image src="{{item.photo}}" mode data-event-opts="{{[['tap',[['showBigPic',[index]]]]]}}" bindtap="__e"></image><view class="name _div">{{item.name}}</view><view class="actName _div">{{item.actName}}</view><view class="role _div">{{item.role==2?'演员':'导演'}}</view></view></block></scroll-view></view>
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8

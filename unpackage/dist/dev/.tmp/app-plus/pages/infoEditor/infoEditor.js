@@ -281,6 +281,7 @@ var _common = _interopRequireDefault(__webpack_require__(/*! ../../common/common
 //
 //
 //
+<<<<<<< HEAD
 var _default = { data: function data() {return { userIsLogin: '', globalUser: '' };}, onShow: function onShow() {var me = this; // 用户状态切换
     var globalUser = me.getGlobalUser('globalUser');this.globalUser = globalUser;}, methods: { cleanStorage: function cleanStorage() {uni.clearStorageSync();uni.showToast({ title: "清理缓存成功", mask: false, duration: 1500 });setTimeout(function () {uni.switchTab({ url: '../me/me' });}, 1500);}, logout: function logout() {// 请求轮播图数据
       _common.default.urlRequest('/user/logout', { userId: this.globalUser.id }, 'POST', function (res) {console.log(res.status, " at pages\\infoEditor\\infoEditor.vue:124");if (res.status === 200) {// 如果服务器返回200，代表用户在服务器退出登录成功
@@ -289,6 +290,13 @@ var _default = { data: function data() {return { userIsLogin: '', globalUser: ''
             var faceArr = [];faceArr.push(me.globalUser.faceImage);uni.previewImage({ urls: faceArr, current: faceArr[0] });} else if (index == 1) {// 选择上传头像
             uni.chooseImage({ count: 1, sizeType: ["compressed"], sourceType: ["album"], success: function success(res) {// 获得临时路径
                 var tempFilePath = res.tempFilePaths[0];uni.navigateTo({ url: "../faceCrop/faceCrop?tempFilePath=".concat(tempFilePath) });} });}} });}, modifyNickname: function modifyNickname() {uni.navigateTo({ url: '../modifyNickname/modifyNickname' });}, modifyBirthday: function modifyBirthday() {uni.navigateTo({ url: "../modifyBirthday/modifyBirthday" });}, modifySex: function modifySex() {uni.navigateTo({ url: "../setSex/setSex" });} } };exports.default = _default;
+=======
+var _default = { data: function data() {return { userIsLogin: '', globalUser: '' };}, onShow: function onShow() {// 用户状态切换
+    var globalUser = uni.getStorageSync('globalUser');this.globalUser = globalUser;}, methods: { cleanStorage: function cleanStorage() {uni.clearStorageSync();uni.showToast({ title: "清理缓存成功", mask: false, duration: 1500 });setTimeout(function () {uni.switchTab({ url: '../me/me' });}, 1500);}, logout: function logout() {// 请求轮播图数据
+      _common.default.urlRequest('/user/logout', { userId: this.globalUser.id }, 'POST', function (res) {console.log(res.status, " at pages\\infoEditor\\infoEditor.vue:123");if (res.status === 200) {// 如果服务器返回200，代表用户在服务器退出登录成功
+          uni.removeStorageSync('globalUser');uni.switchTab({ url: "../me/me" });} // this.carouselList = res.data
+      });} } };exports.default = _default;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <view class="hot-part block" bind:__l="__l"><view class="title"><image src="/static/icos/hot.png" mode></image><label class="_span">热门超英</label></view><scroll-view class="scroll-view_H itemBox" scroll-x="true"><block wx:for="{{superheroHotList}}" wx:for-item="item" wx:for-index="index" wx:key="id"><view class="item"><image src="{{item.cover}}" mode lazy-load></image><view class="title">{{item.name}}</view><star score="{{item.score}}" showNum="{{1}}"></star></view></block></scroll-view></view>
+=======
+<view class="hot-part block" bind:__l="__l"><view class="title"><image src="/static/icos/hot.png" mode></image><label class="_span">热门超英</label></view><scroll-view class="scroll-view_H itemBox" scroll-x="true"><block wx:for="{{superheroHotList}}" wx:for-item="item" wx:for-index="index" wx:key="id"><view class="item"><image src="{{item.cover}}" mode></image><view class="title">{{item.name}}</view><star score="{{item.score}}" showNum="{{1}}"></star></view></block></scroll-view></view>
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8

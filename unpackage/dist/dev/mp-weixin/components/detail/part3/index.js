@@ -109,7 +109,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+<<<<<<< HEAD
 //
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 var _default =
 {
   props: ['plotPics'],

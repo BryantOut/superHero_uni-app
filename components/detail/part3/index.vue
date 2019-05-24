@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 <template>
 	<view class="plotPics">
 		<div class="title">剧照</div>
 		<scroll-view scroll-x="true" class="scroll-view_H itemBox">
 			<view class="item" v-for="(item,index) in plotPics" :key="index">
+<<<<<<< HEAD
 				<image :src="item" mode="aspectFill" class="" @click="showBigPic(index)" lazy-load></image>
+=======
+				<image :src="item" mode="aspectFill" class="" @click="showBigPic(index)"></image>
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 			</view>
 		</scroll-view>
 	</view>

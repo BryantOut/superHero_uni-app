@@ -1,5 +1,17 @@
 <script>
 	export default {
+<<<<<<< HEAD
+=======
+		// onLaunch: function() {
+		// 	console.log('App Launch')
+		// },
+		// onShow: function() {
+		// 	console.log('App Show')
+		// },
+		// onHide: function() {
+		// 	console.log('App Hide')
+		// }
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 	}
 </script>
 

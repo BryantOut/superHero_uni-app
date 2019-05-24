@@ -98,7 +98,11 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+=======
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 
 
 
@@ -149,6 +153,7 @@ var _common = _interopRequireDefault(__webpack_require__(/*! ../../common/common
 //
 //
 //
+<<<<<<< HEAD
 var hotPart = function hotPart() {return __webpack_require__.e(/*! import() | components/index/hot-part/index */ "components/index/hot-part/index").then(__webpack_require__.bind(null, /*! @/components/index/hot-part/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/hot-part/index.vue"));};var NoticePart = function NoticePart() {return __webpack_require__.e(/*! import() | components/index/hot-Notice/index */ "components/index/hot-Notice/index").then(__webpack_require__.bind(null, /*! ../../components/index/hot-Notice/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/hot-Notice/index.vue"));};var GuessYouLike = function GuessYouLike() {return __webpack_require__.e(/*! import() | components/index/guessYouLike/index */ "components/index/guessYouLike/index").then(__webpack_require__.bind(null, /*! ../../components/index/guessYouLike/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/guessYouLike/index.vue"));};var _default = { data: function data() {return { carouselList: [], superheroHotList: [], superheroTrailerList: [], guessULikeList: [] };}, components: { hotPart: hotPart, NoticePart: NoticePart, GuessYouLike: GuessYouLike }, onLoad: function onLoad() {var _this = this; // 判断本地是否有缓存资源
     // this.carouselList= JSON.parse(uni.getStorageSync('carouselList'))
     // console.log(this.carouselList)
@@ -167,6 +172,16 @@ var hotPart = function hotPart() {return __webpack_require__.e(/*! import() | co
     _common.default.urlRequest('/index/movie/hot', {
       type: 'trailer' },
     'POST', function (res) {
+=======
+var hotPart = function hotPart() {return __webpack_require__.e(/*! import() | components/index/hot-part/index */ "components/index/hot-part/index").then(__webpack_require__.bind(null, /*! @/components/index/hot-part/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/hot-part/index.vue"));};var NoticePart = function NoticePart() {return __webpack_require__.e(/*! import() | components/index/hot-Notice/index */ "components/index/hot-Notice/index").then(__webpack_require__.bind(null, /*! ../../components/index/hot-Notice/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/hot-Notice/index.vue"));};var GuessYouLike = function GuessYouLike() {return __webpack_require__.e(/*! import() | components/index/guessYouLike/index */ "components/index/guessYouLike/index").then(__webpack_require__.bind(null, /*! ../../components/index/guessYouLike/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/guessYouLike/index.vue"));};var _default = { data: function data() {return { carouselList: [], superheroHotList: [], superheroTrailerList: [], guessULikeList: [] };}, components: { hotPart: hotPart, NoticePart: NoticePart, GuessYouLike: GuessYouLike }, onLoad: function onLoad() {var _this = this; // 请求轮播图数据
+    _common.default.urlRequest('/index/carousel/list', null, 'POST', function (res) {// console.log(res.data)
+      _this.carouselList = res.data;}); // 热门英雄数据
+    _common.default.urlRequest('/index/movie/hot', { type: 'superhero' }, 'POST', function (res) {// console.log(res)
+      _this.superheroHotList = res.data;});
+
+    // 热门预告数据
+    _common.default.urlRequest('/index/movie/hot', { type: 'trailer' }, 'POST', function (res) {
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
       // console.log(res)
       _this.superheroTrailerList = res.data;
     });
@@ -180,11 +195,18 @@ var hotPart = function hotPart() {return __webpack_require__.e(/*! import() | co
     refreshGuestULike: function refreshGuestULike() {var _this2 = this;
       // 猜你喜欢数据
       _common.default.urlRequest('/index/guessULike', null, 'POST', function (res) {
+<<<<<<< HEAD
         // console.log(res)
         _this2.guessULikeList = res.data;
       });
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
+=======
+        console.log(res, " at pages\\index\\index.vue:73");
+        _this2.guessULikeList = res.data;
+      });
+    } } };exports.default = _default;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 
 /***/ }),
 

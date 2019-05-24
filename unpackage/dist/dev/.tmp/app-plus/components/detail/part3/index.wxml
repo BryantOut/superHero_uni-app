@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <view class="plotPics" bind:__l="__l"><view class="title _div">剧照</view><scroll-view class="scroll-view_H itemBox" scroll-x="true"><block wx:for="{{plotPics}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="item"><image src="{{item}}" mode="aspectFill" lazy-load data-event-opts="{{[['tap',[['showBigPic',[index]]]]]}}" bindtap="__e"></image></view></block></scroll-view></view>
+=======
+<view class="plotPics" bind:__l="__l"><view class="title _div">剧照</view><scroll-view class="scroll-view_H itemBox" scroll-x="true"><block wx:for="{{plotPics}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="item"><image src="{{item}}" mode="aspectFill" data-event-opts="{{[['tap',[['showBigPic',[index]]]]]}}" bindtap="__e"></image></view></block></scroll-view></view>
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8

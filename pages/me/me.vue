@@ -10,7 +10,11 @@
 
 			<view class="info-wapper" v-if="userIsLogin">
 				<view class="nickname">
+<<<<<<< HEAD
 					{{userInfo.nickname}}
+=======
+					{{userInfo.username}}
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 				</view>
 				<view class="nav-info">ID：{{userInfo.id}}</view>
 			</view>

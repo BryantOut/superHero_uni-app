@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <view class="hot-part block" bind:__l="__l"><view class="title"><image src="/static/icos/interest.png" mode></image><label class="_span">热门预告</label></view><view class="videosBox _div"><block wx:for="{{superheroTrailerList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><video class="hot-movie-single" src="{{item.trailer}}" id="{{item.id}}" data-playingindex="{{item.id}}" poster="{{item.poster}}" controls data-event-opts="{{[['play',[['onlyYPlay',['$event']]]]]}}" bindplay="__e"></video></block></view></view>
+=======
+<view class="hot-part block" bind:__l="__l"><view class="title"><image src="/static/icos/interest.png" mode></image><label class="_span">热门预告</label></view><view class="videosBox _div"><block wx:for="{{superheroTrailerList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><video class="hot-movie-single" src="{{item.trailer}}" id="{{item.id}}" show-progress="{{false}}" poster="{{item.poster}}" controls data-event-opts="{{[['play',[['onlyYPlay',['$0'],[[['superheroTrailerList','id',item.id,'id']]]]]]]}}" bindplay="__e"></video></block></view></view>
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8

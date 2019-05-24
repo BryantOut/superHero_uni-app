@@ -15,6 +15,7 @@ Vue.prototype.getGlobalUser = function(key) {
 	}
 }
 
+<<<<<<< HEAD
 // import VueLazyload  from "vue-lazyload"
 // Vue.use(VueLazyload, {
 //   src: 'https://webimg.yangk6668.com/webimg/m/img/image/defunt_pic.gif',
@@ -23,6 +24,8 @@ Vue.prototype.getGlobalUser = function(key) {
 // })
 // Vue.use(VueLazyload
 // )
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 
 App.mpType = 'app'
 

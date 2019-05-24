@@ -60,6 +60,7 @@
 				"navigationBarTitleText": "设置"
 			}
         }
+<<<<<<< HEAD
         ,{
             "path" : "pages/choseFacePic/choseFacePic",
             "style" : {}
@@ -83,6 +84,8 @@
             "path" : "pages/setSex/setSex",
             "style" : {}
         }
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

@@ -47,9 +47,12 @@
 			</view>
 		</view>
 		<!-- #endif -->
+<<<<<<< HEAD
 		<view>
 			{{console}}
 		</view>
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 	</view>
 </template>
 
@@ -58,22 +61,36 @@
 	export default {
 		data() {
 			return {
+<<<<<<< HEAD
 				console:''
+=======
+
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 			}
 		},
 		methods: {
 			appOAuthLogin(e) {
+<<<<<<< HEAD
 				let me = this;
 				// 获取用户登录类型
 				let logintype = e.currentTarget.dataset.logintype				
+=======
+				// 获取用户登录类型
+				let logintype = e.currentTarget.dataset.logintype
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 				// 授权登录
 				uni.login({
 					provider:logintype,
 					success(res) {
+<<<<<<< HEAD
+=======
+						console.log(res)
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 						// 授权登录成功以后，获取用户的信息
 						uni.getUserInfo({
 							provider:logintype,
 							success(info) {
+<<<<<<< HEAD
 								var userInfo = info.userInfo;
 								var face = "";
 								var nickname = "";
@@ -113,6 +130,9 @@
 										}
 									}
 								})
+=======
+								console.log(info)
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 							}
 						})
 					}
@@ -123,14 +143,21 @@
 				// console.log(e)
 				// 通过微信开放能力，获得微信用户的基本信息
 				let userInfo = e.detail.userInfo
+<<<<<<< HEAD
 				// console.log('userInfo:',userInfo)
+=======
+				
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 				// 实现微信登录
 				uni.login({
 					provider:'weixin',
 					success(res) {		
 						// 获得微信登录的code：授权码
 						let code = res.code
+<<<<<<< HEAD
 						// console.log(res)
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 						// 设置登录到哪个对应的小程序，大家可以根据自己的后端去实现业务参数
 						// 使用哪个小程序[0:NEXT超英预告][1:超英预告][2:NEXT学院电影预告]
 						let loginWhichMP = 1
@@ -138,6 +165,7 @@
 						// 	console.log(res)
 						// })
 						let obj = {"avatarUrl":userInfo.avatarUrl,"nickName":userInfo.nickName,"whichMP":loginWhichMP}
+<<<<<<< HEAD
 						console.log(obj)
 						
 						uni.request({
@@ -147,6 +175,11 @@
 								"nickName": userInfo.nickName,
 								"whichMP": loginWhichMP
 							},
+=======
+						uni.request({
+							url: common.serverUrl + '/stu/mpWXLogin/${code}' + '?qq=565580328',
+							data: obj,
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 							method: "POST",
 							success: (res) => {
 								console.log(res)
@@ -196,8 +229,16 @@
 						}
 					}
 				})
+<<<<<<< HEAD
 			},
 			
+=======
+
+				// common.urlRequest('/user/registOrLogi',obj,'POST',(res)=>{
+				// 	console.log(res)
+				// })
+			}
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 		}
 	}
 </script>

@@ -1152,6 +1152,12 @@ function gz$gwx_11(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
 __WXML_GLOBAL__.ops_cached.$gwx_11=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+<<<<<<< HEAD
+=======
+Z([3,'__l'])
+Z([3,'block'])
+Z([[2,'!=='],[[7],[3,'currentPic']],[1,null]])
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 })(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
 }
 function gz$gwx_12(){
@@ -1159,8 +1165,27 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
 __WXML_GLOBAL__.ops_cached.$gwx_12=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
+<<<<<<< HEAD
 Z([3,'block'])
 Z([[2,'!=='],[[7],[3,'currentPic']],[1,null]])
+=======
+Z([3,'page data-v-273a2e32'])
+Z([[7],[3,'dataLoad']])
+Z([3,'data-v-273a2e32'])
+Z([[7],[3,'data']])
+Z(z[3])
+Z(z[2])
+Z(z[3])
+Z([[6],[[7],[3,'data']],[3,'plotDesc']])
+Z(z[3])
+Z([[7],[3,'staffDataLoad']])
+Z(z[3])
+Z([[7],[3,'staffList']])
+Z(z[3])
+Z(z[2])
+Z(z[3])
+Z([[7],[3,'plotPics']])
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 })(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
 }
 function gz$gwx_13(){
@@ -1168,19 +1193,29 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
 __WXML_GLOBAL__.ops_cached.$gwx_13=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
+<<<<<<< HEAD
 Z([3,'page data-v-273a2e32'])
 Z([[7],[3,'dataLoad']])
 Z([3,'data-v-273a2e32'])
 Z([[7],[3,'plotPics']])
+=======
+Z([3,'page'])
+Z([[7],[3,'superheroHotList']])
+Z([[7],[3,'superheroTrailerList']])
+Z([[7],[3,'guessULikeList']])
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 })(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
 }
 function gz$gwx_14(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
 __WXML_GLOBAL__.ops_cached.$gwx_14=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+<<<<<<< HEAD
 Z([3,'__l'])
 Z([3,'page page-fill'])
 Z([[7],[3,'isShowImg']])
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 })(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
 }
 function gz$gwx_15(){
@@ -1188,10 +1223,15 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
 __WXML_GLOBAL__.ops_cached.$gwx_15=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
+<<<<<<< HEAD
 Z([3,'page'])
 Z([[7],[3,'superheroHotList']])
 Z([[7],[3,'superheroTrailerList']])
 Z([[7],[3,'guessULikeList']])
+=======
+Z([3,'page page-fill'])
+Z([[7],[3,'userIsLogin']])
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 })(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
 }
 function gz$gwx_16(){
@@ -1204,6 +1244,7 @@ function gz$gwx_17(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_17)return __WXML_GLOBAL__.ops_cached.$gwx_17
 __WXML_GLOBAL__.ops_cached.$gwx_17=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+<<<<<<< HEAD
 Z([3,'__l'])
 Z([3,'page page-fill'])
 Z([[7],[3,'userIsLogin']])
@@ -1239,11 +1280,19 @@ __WXML_GLOBAL__.ops_cached.$gwx_22=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 })(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
 }
+=======
+})(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
+}
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
+<<<<<<< HEAD
 var x=['./components/detail/part1/index.wxml','./components/detail/part2/index.wxml','./components/detail/part3/index.wxml','./components/detail/part4/index.wxml','./components/detail/scoreCard/index.wxml','./components/index/guessYouLike/index.wxml','./components/index/hot-Notice/index.wxml','./components/index/hot-part/index.wxml','./components/line/index.wxml','./components/star/index.wxml','./pages/choseFacePic/choseFacePic.wxml','./pages/cover/cover.wxml','./pages/detail/detail.wxml','./pages/faceCrop/faceCrop.wxml','./pages/index/index.wxml','./pages/infoEditor/infoEditor.wxml','./pages/me/me.wxml','./pages/modifyBirthday/modifyBirthday.wxml','./pages/modifyNickname/modifyNickname.wxml','./pages/registerOrLogin/registerOrLogin.wxml','./pages/search/search.wxml','./pages/setSex/setSex.wxml'];d_[x[0]]={}
+=======
+var x=['./components/detail/part1/index.wxml','./components/detail/part2/index.wxml','./components/detail/part3/index.wxml','./components/detail/part4/index.wxml','./components/detail/scoreCard/index.wxml','./components/index/guessYouLike/index.wxml','./components/index/hot-Notice/index.wxml','./components/index/hot-part/index.wxml','./components/line/index.wxml','./components/star/index.wxml','./pages/cover/cover.wxml','./pages/detail/detail.wxml','./pages/index/index.wxml','./pages/infoEditor/infoEditor.wxml','./pages/me/me.wxml','./pages/registerOrLogin/registerOrLogin.wxml','./pages/search/search.wxml'];d_[x[0]]={}
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 cs.push("./components/detail/part1/index.wxml:view:1:1")
@@ -1327,7 +1376,11 @@ var oV=_v()
 _(hU,oV)
 cs.push("./components/index/hot-part/index.wxml:block:1:219")
 var cW=function(lY,oX,aZ,gg){
+<<<<<<< HEAD
 cs.push("./components/index/hot-part/index.wxml:star:1:418")
+=======
+cs.push("./components/index/hot-part/index.wxml:star:1:408")
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 var e2=_mz(z,'star',['score',6,'showNum',1],[],lY,oX,gg)
 cs.pop()
 _(aZ,e2)
@@ -1367,12 +1420,27 @@ e_[x[9]]={f:m9,j:[],i:[],ti:[],ic:[]}
 d_[x[10]]={}
 var m10=function(e,s,r,gg){
 var z=gz$gwx_11()
+<<<<<<< HEAD
+=======
+cs.push("./pages/cover/cover.wxml:view:1:1")
+var c8=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+var h9=_v()
+_(c8,h9)
+if(_oz(z,2,e,s,gg)){h9.wxVkey=1
+cs.push("./pages/cover/cover.wxml:block:1:36")
+cs.pop()
+}
+h9.wxXCkey=1
+cs.pop()
+_(r,c8)
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 return r
 }
 e_[x[10]]={f:m10,j:[],i:[],ti:[],ic:[]}
 d_[x[11]]={}
 var m11=function(e,s,r,gg){
 var z=gz$gwx_12()
+<<<<<<< HEAD
 cs.push("./pages/cover/cover.wxml:view:1:1")
 var h9=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
 var o0=_v()
@@ -1384,12 +1452,82 @@ cs.pop()
 o0.wxXCkey=1
 cs.pop()
 _(r,h9)
+=======
+cs.push("./pages/detail/detail.wxml:view:1:1")
+var cAB=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+var oBB=_v()
+_(cAB,oBB)
+if(_oz(z,2,e,s,gg)){oBB.wxVkey=1
+cs.push("./pages/detail/detail.wxml:block:1:230")
+cs.push("./pages/detail/detail.wxml:part1:1:258")
+var eFB=_mz(z,'part1',['class',3,'data',1],[],e,s,gg)
+cs.pop()
+_(oBB,eFB)
+cs.pop()
+}
+cs.push("./pages/detail/detail.wxml:m-line:1:321")
+var bGB=_n('m-line')
+_rz(z,bGB,'class',5,e,s,gg)
+cs.pop()
+_(cAB,bGB)
+var lCB=_v()
+_(cAB,lCB)
+if(_oz(z,6,e,s,gg)){lCB.wxVkey=1
+cs.push("./pages/detail/detail.wxml:block:1:362")
+cs.push("./pages/detail/detail.wxml:part2:1:390")
+var oHB=_mz(z,'part2',['class',7,'plotDesc',1],[],e,s,gg)
+cs.pop()
+_(lCB,oHB)
+cs.pop()
+}
+cs.push("./pages/detail/detail.wxml:m-line:1:466")
+var xIB=_n('m-line')
+_rz(z,xIB,'class',9,e,s,gg)
+cs.pop()
+_(cAB,xIB)
+var aDB=_v()
+_(cAB,aDB)
+if(_oz(z,10,e,s,gg)){aDB.wxVkey=1
+cs.push("./pages/detail/detail.wxml:block:1:507")
+cs.push("./pages/detail/detail.wxml:part4:1:540")
+var oJB=_mz(z,'part4',['class',11,'staffList',1],[],e,s,gg)
+cs.pop()
+_(aDB,oJB)
+cs.pop()
+}
+cs.push("./pages/detail/detail.wxml:m-line:1:613")
+var fKB=_n('m-line')
+_rz(z,fKB,'class',13,e,s,gg)
+cs.pop()
+_(cAB,fKB)
+var tEB=_v()
+_(cAB,tEB)
+if(_oz(z,14,e,s,gg)){tEB.wxVkey=1
+cs.push("./pages/detail/detail.wxml:block:1:654")
+cs.push("./pages/detail/detail.wxml:part3:1:682")
+var cLB=_mz(z,'part3',['class',15,'plotPics',1],[],e,s,gg)
+cs.pop()
+_(tEB,cLB)
+cs.pop()
+}
+oBB.wxXCkey=1
+oBB.wxXCkey=3
+lCB.wxXCkey=1
+lCB.wxXCkey=3
+aDB.wxXCkey=1
+aDB.wxXCkey=3
+tEB.wxXCkey=1
+tEB.wxXCkey=3
+cs.pop()
+_(r,cAB)
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 return r
 }
 e_[x[11]]={f:m11,j:[],i:[],ti:[],ic:[]}
 d_[x[12]]={}
 var m12=function(e,s,r,gg){
 var z=gz$gwx_13()
+<<<<<<< HEAD
 cs.push("./pages/detail/detail.wxml:view:1:1")
 var oBB=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
 var lCB=_v()
@@ -1406,12 +1544,34 @@ lCB.wxXCkey=1
 lCB.wxXCkey=3
 cs.pop()
 _(r,oBB)
+=======
+cs.push("./pages/index/index.wxml:view:1:1")
+var oNB=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/index/index.wxml:hot-part:1:367")
+var cOB=_n('hot-part')
+_rz(z,cOB,'superheroHotList',2,e,s,gg)
+cs.pop()
+_(oNB,cOB)
+cs.push("./pages/index/index.wxml:notice-part:1:428")
+var oPB=_n('notice-part')
+_rz(z,oPB,'superheroTrailerList',3,e,s,gg)
+cs.pop()
+_(oNB,oPB)
+cs.push("./pages/index/index.wxml:guess-you-like:1:503")
+var lQB=_n('guess-you-like')
+_rz(z,lQB,'guessULikeList',4,e,s,gg)
+cs.pop()
+_(oNB,lQB)
+cs.pop()
+_(r,oNB)
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 return r
 }
 e_[x[12]]={f:m12,j:[],i:[],ti:[],ic:[]}
 d_[x[13]]={}
 var m13=function(e,s,r,gg){
 var z=gz$gwx_14()
+<<<<<<< HEAD
 cs.push("./pages/faceCrop/faceCrop.wxml:view:1:1")
 var eFB=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
 var bGB=_v()
@@ -1423,12 +1583,15 @@ cs.pop()
 bGB.wxXCkey=1
 cs.pop()
 _(r,eFB)
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 return r
 }
 e_[x[13]]={f:m13,j:[],i:[],ti:[],ic:[]}
 d_[x[14]]={}
 var m14=function(e,s,r,gg){
 var z=gz$gwx_15()
+<<<<<<< HEAD
 cs.push("./pages/index/index.wxml:view:1:1")
 var xIB=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
 cs.push("./pages/index/index.wxml:hot-part:1:367")
@@ -1448,6 +1611,19 @@ cs.pop()
 _(xIB,cLB)
 cs.pop()
 _(r,xIB)
+=======
+cs.push("./pages/me/me.wxml:view:1:1")
+var eTB=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+var bUB=_v()
+_(eTB,bUB)
+if(_oz(z,2,e,s,gg)){bUB.wxVkey=1
+cs.push("./pages/me/me.wxml:block:1:638")
+cs.pop()
+}
+bUB.wxXCkey=1
+cs.pop()
+_(r,eTB)
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 return r
 }
 e_[x[14]]={f:m14,j:[],i:[],ti:[],ic:[]}
@@ -1460,6 +1636,7 @@ e_[x[15]]={f:m15,j:[],i:[],ti:[],ic:[]}
 d_[x[16]]={}
 var m16=function(e,s,r,gg){
 var z=gz$gwx_17()
+<<<<<<< HEAD
 cs.push("./pages/me/me.wxml:view:1:1")
 var cOB=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
 var oPB=_v()
@@ -1504,6 +1681,11 @@ var z=gz$gwx_22()
 return r
 }
 e_[x[21]]={f:m21,j:[],i:[],ti:[],ic:[]}
+=======
+return r
+}
+e_[x[16]]={f:m16,j:[],i:[],ti:[],ic:[]}
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -1524,7 +1706,11 @@ return root;
 
 
 
+<<<<<<< HEAD
 __wxAppCode__['app.json']={"pages":["pages/index/index","pages/search/search","pages/me/me","pages/detail/detail","pages/cover/cover","pages/registerOrLogin/registerOrLogin","pages/infoEditor/infoEditor","pages/choseFacePic/choseFacePic","pages/faceCrop/faceCrop","pages/modifyNickname/modifyNickname","pages/modifyBirthday/modifyBirthday","pages/setSex/setSex"],"subPackages":[],"window":{"navigationBarTextStyle":"white","navigationBarTitleText":"Bryant超英预告","navigationBarBackgroundColor":"#ffd655","backgroundColor":"#F8F8F8"},"tabBar":{"color":"#bfbfbf","selectedColor":"#515151","borderStyle":"black","backgroundColor":"#fff","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/tabBarIco/index.png","selectedIconPath":"static/tabBarIco/index_sel.png"},{"pagePath":"pages/search/search","text":"搜索","iconPath":"static/tabBarIco/search.png","selectedIconPath":"static/icos/search.png"},{"pagePath":"pages/me/me","text":"我的","iconPath":"static/tabBarIco/me.png","selectedIconPath":"static/tabBarIco/me_sel.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"next-superhero-dev","compilerVersion":"1.9.8","usingComponents":{}};
+=======
+__wxAppCode__['app.json']={"pages":["pages/index/index","pages/search/search","pages/me/me","pages/detail/detail","pages/cover/cover","pages/registerOrLogin/registerOrLogin","pages/infoEditor/infoEditor"],"subPackages":[],"window":{"navigationBarTextStyle":"white","navigationBarTitleText":"Bryant超英预告","navigationBarBackgroundColor":"#ffd655","backgroundColor":"#F8F8F8"},"tabBar":{"color":"#bfbfbf","selectedColor":"#515151","borderStyle":"black","backgroundColor":"#fff","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/tabBarIco/index.png","selectedIconPath":"static/tabBarIco/index_sel.png"},{"pagePath":"pages/search/search","text":"搜索","iconPath":"static/tabBarIco/search.png","selectedIconPath":"static/icos/search.png"},{"pagePath":"pages/me/me","text":"我的","iconPath":"static/tabBarIco/me.png","selectedIconPath":"static/tabBarIco/me_sel.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"next-superhero-dev","compilerVersion":"1.9.7","usingComponents":{}};
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 __wxAppCode__['components/detail/part1/index.json']={"usingComponents":{"score-card":"/components/detail/scoreCard/index"},"component":true};
@@ -1557,18 +1743,24 @@ __wxAppCode__['components/line/index.wxml']=$gwx('./components/line/index.wxml')
 __wxAppCode__['components/star/index.json']={"usingComponents":{},"component":true};
 __wxAppCode__['components/star/index.wxml']=$gwx('./components/star/index.wxml');
 
+<<<<<<< HEAD
 __wxAppCode__['pages/choseFacePic/choseFacePic.json']={"usingComponents":{}};
 __wxAppCode__['pages/choseFacePic/choseFacePic.wxml']=$gwx('./pages/choseFacePic/choseFacePic.wxml');
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 __wxAppCode__['pages/cover/cover.json']={"usingComponents":{}};
 __wxAppCode__['pages/cover/cover.wxml']=$gwx('./pages/cover/cover.wxml');
 
 __wxAppCode__['pages/detail/detail.json']={"navigationBarTitleText":"电影详情页","titleNView":{"type":"transparent","buttons":[{"type":"share"},{"type":"home"}]},"usingComponents":{"part1":"/components/detail/part1/index","part2":"/components/detail/part2/index","part3":"/components/detail/part3/index","part4":"/components/detail/part4/index","m-line":"/components/line/index"}};
 __wxAppCode__['pages/detail/detail.wxml']=$gwx('./pages/detail/detail.wxml');
 
+<<<<<<< HEAD
 __wxAppCode__['pages/faceCrop/faceCrop.json']={"usingComponents":{}};
 __wxAppCode__['pages/faceCrop/faceCrop.wxml']=$gwx('./pages/faceCrop/faceCrop.wxml');
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 __wxAppCode__['pages/index/index.json']={"enablePullDownRefresh":true,"navigationBarTextStyle":"white","navigationBarTitleText":"首页","navigationBarBackgroundColor":"#ffd655","titleNView":false,"usingComponents":{"hot-part":"/components/index/hot-part/index","notice-part":"/components/index/hot-Notice/index","guess-you-like":"/components/index/guessYouLike/index"}};
 __wxAppCode__['pages/index/index.wxml']=$gwx('./pages/index/index.wxml');
 
@@ -1578,21 +1770,27 @@ __wxAppCode__['pages/infoEditor/infoEditor.wxml']=$gwx('./pages/infoEditor/infoE
 __wxAppCode__['pages/me/me.json']={"navigationBarTextStyle":"white","navigationBarTitleText":"我的","navigationBarBackgroundColor":"#ffd655","titleNView":false,"usingComponents":{}};
 __wxAppCode__['pages/me/me.wxml']=$gwx('./pages/me/me.wxml');
 
+<<<<<<< HEAD
 __wxAppCode__['pages/modifyBirthday/modifyBirthday.json']={"usingComponents":{}};
 __wxAppCode__['pages/modifyBirthday/modifyBirthday.wxml']=$gwx('./pages/modifyBirthday/modifyBirthday.wxml');
 
 __wxAppCode__['pages/modifyNickname/modifyNickname.json']={"navigationBarTextStyle":"white","navigationBarTitleText":"修改昵称","navigationBarBackgroundColor":"#ffd655","usingComponents":{}};
 __wxAppCode__['pages/modifyNickname/modifyNickname.wxml']=$gwx('./pages/modifyNickname/modifyNickname.wxml');
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 __wxAppCode__['pages/registerOrLogin/registerOrLogin.json']={"navigationBarTitleText":"登录/注册","usingComponents":{}};
 __wxAppCode__['pages/registerOrLogin/registerOrLogin.wxml']=$gwx('./pages/registerOrLogin/registerOrLogin.wxml');
 
 __wxAppCode__['pages/search/search.json']={"usingComponents":{}};
 __wxAppCode__['pages/search/search.wxml']=$gwx('./pages/search/search.wxml');
 
+<<<<<<< HEAD
 __wxAppCode__['pages/setSex/setSex.json']={"usingComponents":{}};
 __wxAppCode__['pages/setSex/setSex.wxml']=$gwx('./pages/setSex/setSex.wxml');
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 
 
 define('common/main.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -1678,7 +1876,21 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default =
+<<<<<<< HEAD
 {};exports.default = _default;
+=======
+{
+  // onLaunch: function() {
+  // 	console.log('App Launch')
+  // },
+  // onShow: function() {
+  // 	console.log('App Show')
+  // },
+  // onHide: function() {
+  // 	console.log('App Hide')
+  // }
+};exports.default = _default;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 
 /***/ }),
 
@@ -2034,6 +2246,7 @@ _vue.default.prototype.getGlobalUser = function (key) {
   }
 };
 
+<<<<<<< HEAD
 // import VueLazyload  from "vue-lazyload"
 // Vue.use(VueLazyload, {
 //   src: 'https://webimg.yangk6668.com/webimg/m/img/image/defunt_pic.gif',
@@ -2042,6 +2255,8 @@ _vue.default.prototype.getGlobalUser = function (key) {
 // })
 // Vue.use(VueLazyload
 // )
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 
 _App.default.mpType = 'app';
 
@@ -2054,6 +2269,7 @@ createApp(app).$mount();
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FchoseFacePic%2FchoseFacePic\"}":
 /*!********************************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2FchoseFacePic%2FchoseFacePic"} ***!
@@ -2071,6 +2287,8 @@ createPage(_choseFacePic.default);
 
 /***/ }),
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2Fcover%2Fcover\"}":
 /*!******************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2Fcover%2Fcover"} ***!
@@ -2105,6 +2323,7 @@ createPage(_detail.default);
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FfaceCrop%2FfaceCrop\"}":
 /*!************************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2FfaceCrop%2FfaceCrop"} ***!
@@ -2122,6 +2341,8 @@ createPage(_faceCrop.default);
 
 /***/ }),
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2Findex%2Findex\"}":
 /*!******************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2Findex%2Findex"} ***!
@@ -2173,6 +2394,7 @@ createPage(_me.default);
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FmodifyBirthday%2FmodifyBirthday\"}":
 /*!************************************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2FmodifyBirthday%2FmodifyBirthday"} ***!
@@ -2207,6 +2429,8 @@ createPage(_modifyNickname.default);
 
 /***/ }),
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FregisterOrLogin%2FregisterOrLogin\"}":
 /*!**************************************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2FregisterOrLogin%2FregisterOrLogin"} ***!
@@ -2241,6 +2465,7 @@ createPage(_search.default);
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FsetSex%2FsetSex\"}":
 /*!********************************************************************************!*\
   !*** C:/gitFile/next-superhero-dev/main.js?{"page":"pages%2FsetSex%2FsetSex"} ***!
@@ -2258,6 +2483,8 @@ createPage(_setSex.default);
 
 /***/ }),
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 /***/ "../../../../../../../gitFile/next-superhero-dev/pages.json":
 /*!************************************************!*\
   !*** C:/gitFile/next-superhero-dev/pages.json ***!
@@ -2736,7 +2963,11 @@ function getData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
+<<<<<<< HEAD
       if (Object({"VUE_APP_PLATFORM":"app-plus","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+=======
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG) {
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -8810,7 +9041,11 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
+<<<<<<< HEAD
         if (Object({"VUE_APP_PLATFORM":"app-plus","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+=======
+        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG) {
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -8831,14 +9066,22 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
+<<<<<<< HEAD
         if(Object({"VUE_APP_PLATFORM":"app-plus","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+=======
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG){
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
+<<<<<<< HEAD
         if(Object({"VUE_APP_PLATFORM":"app-plus","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+=======
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG){
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -8907,7 +9150,11 @@ var patch = function(oldVnode, vnode) {
         });
         var diffData = diff(data, mpData);
         if (Object.keys(diffData).length) {
+<<<<<<< HEAD
             if (Object({"VUE_APP_PLATFORM":"app-plus","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+=======
+            if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG) {
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
                 console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
                     ']差量更新',
                     JSON.stringify(diffData));
@@ -9852,7 +10099,10 @@ define('components/detail/part3/index.js',function(require, module, exports, win
       //
       //
       //
+<<<<<<< HEAD
       //
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
       var _default =
       {
         props: ['plotPics'],
@@ -10742,6 +10992,7 @@ define('components/index/hot-Notice/index.js',function(require, module, exports,
       //
       //
       //
+<<<<<<< HEAD
       var _default = { name: "hotNotice", props: ['superheroTrailerList'], data: function data() {return { currVideoContext: '', videoContextList: [] };}, methods: { // 播放一个视频的时候，需要暂停其他正在播放的视频
           onlyYPlay: function onlyYPlay(e) {var me = this;var currentVideoId = e.currentTarget.dataset.playingindex;if (e) {currentVideoId = e.currentTarget.dataset.playingindex;me.currVideoContext = uni.createVideoContext(currentVideoId);}var superheroTrailerList = me.superheroTrailerList;for (var i = 0; i < superheroTrailerList.length; i++) {
               var tempId = superheroTrailerList[i].id;
@@ -10751,6 +11002,10 @@ define('components/index/hot-Notice/index.js',function(require, module, exports,
               }
             }
           } } };exports.default = _default;
+=======
+      var _default = { name: "hotNotice", props: ['superheroTrailerList'], data: function data() {return { currVideoContext: '' };}, methods: { // 播放一个视频的时候，需要暂停其他正在播放的视频
+          onlyYPlay: function onlyYPlay(currentVideoId) {this.currVideoContext = uni.createVideoContext(currentVideoId);var superheroTrailerList = this.superheroTrailerList;for (var i = 0; i < superheroTrailerList.length; i++) {var tempId = superheroTrailerList[i].id;if (currentVideoId != superheroTrailerList[i].id) {uni.createVideoContext(tempId).pause();}}} } };exports.default = _default;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
       /* WEBPACK VAR INJECTION */}).call(this, __webpack_require__( /*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */"./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]);
 
     /***/},
@@ -11506,7 +11761,11 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+=======
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 
 
 
@@ -11557,6 +11816,7 @@ var _common = _interopRequireDefault(__webpack_require__(/*! ../../common/common
 //
 //
 //
+<<<<<<< HEAD
 var hotPart = function hotPart() {return __webpack_require__.e(/*! import() | components/index/hot-part/index */ "components/index/hot-part/index").then(__webpack_require__.bind(null, /*! @/components/index/hot-part/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/hot-part/index.vue"));};var NoticePart = function NoticePart() {return __webpack_require__.e(/*! import() | components/index/hot-Notice/index */ "components/index/hot-Notice/index").then(__webpack_require__.bind(null, /*! ../../components/index/hot-Notice/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/hot-Notice/index.vue"));};var GuessYouLike = function GuessYouLike() {return __webpack_require__.e(/*! import() | components/index/guessYouLike/index */ "components/index/guessYouLike/index").then(__webpack_require__.bind(null, /*! ../../components/index/guessYouLike/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/guessYouLike/index.vue"));};var _default = { data: function data() {return { carouselList: [], superheroHotList: [], superheroTrailerList: [], guessULikeList: [] };}, components: { hotPart: hotPart, NoticePart: NoticePart, GuessYouLike: GuessYouLike }, onLoad: function onLoad() {var _this = this; // 判断本地是否有缓存资源
     // this.carouselList= JSON.parse(uni.getStorageSync('carouselList'))
     // console.log(this.carouselList)
@@ -11575,6 +11835,16 @@ var hotPart = function hotPart() {return __webpack_require__.e(/*! import() | co
     _common.default.urlRequest('/index/movie/hot', {
       type: 'trailer' },
     'POST', function (res) {
+=======
+var hotPart = function hotPart() {return __webpack_require__.e(/*! import() | components/index/hot-part/index */ "components/index/hot-part/index").then(__webpack_require__.bind(null, /*! @/components/index/hot-part/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/hot-part/index.vue"));};var NoticePart = function NoticePart() {return __webpack_require__.e(/*! import() | components/index/hot-Notice/index */ "components/index/hot-Notice/index").then(__webpack_require__.bind(null, /*! ../../components/index/hot-Notice/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/hot-Notice/index.vue"));};var GuessYouLike = function GuessYouLike() {return __webpack_require__.e(/*! import() | components/index/guessYouLike/index */ "components/index/guessYouLike/index").then(__webpack_require__.bind(null, /*! ../../components/index/guessYouLike/index.vue */ "../../../../../../../gitFile/next-superhero-dev/components/index/guessYouLike/index.vue"));};var _default = { data: function data() {return { carouselList: [], superheroHotList: [], superheroTrailerList: [], guessULikeList: [] };}, components: { hotPart: hotPart, NoticePart: NoticePart, GuessYouLike: GuessYouLike }, onLoad: function onLoad() {var _this = this; // 请求轮播图数据
+    _common.default.urlRequest('/index/carousel/list', null, 'POST', function (res) {// console.log(res.data)
+      _this.carouselList = res.data;}); // 热门英雄数据
+    _common.default.urlRequest('/index/movie/hot', { type: 'superhero' }, 'POST', function (res) {// console.log(res)
+      _this.superheroHotList = res.data;});
+
+    // 热门预告数据
+    _common.default.urlRequest('/index/movie/hot', { type: 'trailer' }, 'POST', function (res) {
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
       // console.log(res)
       _this.superheroTrailerList = res.data;
     });
@@ -11588,11 +11858,18 @@ var hotPart = function hotPart() {return __webpack_require__.e(/*! import() | co
     refreshGuestULike: function refreshGuestULike() {var _this2 = this;
       // 猜你喜欢数据
       _common.default.urlRequest('/index/guessULike', null, 'POST', function (res) {
+<<<<<<< HEAD
         // console.log(res)
         _this2.guessULikeList = res.data;
       });
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
+=======
+        console.log(res, " at pages\\index\\index.vue:73");
+        _this2.guessULikeList = res.data;
+      });
+    } } };exports.default = _default;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 
 /***/ }),
 
@@ -12673,9 +12950,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 var _common = _interopRequireDefault(__webpack_require__(/*! ../../common/common.js */ "../../../../../../../gitFile/next-superhero-dev/common/common.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
 //
 //
@@ -12728,6 +13008,7 @@ var _common = _interopRequireDefault(__webpack_require__(/*! ../../common/common
 //
 //
 //
+<<<<<<< HEAD
 //
 //
 //
@@ -12790,12 +13071,35 @@ var _default = { data: function data() {return { console: '' };}, methods: { app
       var userName = e.detail.value.username;
       var password = e.detail.value.password;
 
+=======
+var _default = { data: function data() {return {};}, methods: { appOAuthLogin: function appOAuthLogin(e) {// 获取用户登录类型
+      var logintype = e.currentTarget.dataset.logintype; // 授权登录
+      uni.login({ provider: logintype, success: function success(res) {console.log(res, " at pages\\registerOrLogin\\registerOrLogin.vue:69"); // 授权登录成功以后，获取用户的信息
+          uni.getUserInfo({ provider: logintype, success: function success(info) {console.log(info, " at pages\\registerOrLogin\\registerOrLogin.vue:74");} });} });}, // 微信小程序中登录按钮
+    wxLogin: function wxLogin(e) {// console.log(e)
+      // 通过微信开放能力，获得微信用户的基本信息
+      var userInfo = e.detail.userInfo; // 实现微信登录
+      uni.login({ provider: 'weixin', success: function success(res) {// 获得微信登录的code：授权码
+          var code = res.code; // 设置登录到哪个对应的小程序，大家可以根据自己的后端去实现业务参数
+          // 使用哪个小程序[0:NEXT超英预告][1:超英预告][2:NEXT学院电影预告]
+          var loginWhichMP = 1; // common.urlRequest(`/stu/mpWXLogin/${code}`,{"avatarUrl":userInfo.avatarUrl,"nickName":userInfo.nickName,"whichMP":loginWhichMP},'POST',(res)=>{
+          // 	console.log(res)
+          // })
+          var obj = { "avatarUrl": userInfo.avatarUrl, "nickName": userInfo.nickName, "whichMP": loginWhichMP };uni.request({ url: _common.default.serverUrl + '/stu/mpWXLogin/${code}' + '?qq=565580328', data: obj, method: "POST", success: function success(res) {console.log(res, " at pages\\registerOrLogin\\registerOrLogin.vue:104");if (res.data.status == 200) {// 保存用户信息到全局的缓存中
+                uni.setStorageSync('globalUser', res.data.data); // 切换页面跳转，使用tab切换的api
+                uni.switchTab({ url: '../me/me' });}} });} });}, // 登录/注册按钮事件
+    formSubmit: function formSubmit(e) {var userName = e.detail.value.username;var password = e.detail.value.password;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
       var obj = {
         'username': userName,
         'password': password };
 
 
+<<<<<<< HEAD
       console.log(obj, " at pages\\registerOrLogin\\registerOrLogin.vue:176");
+=======
+      console.log(obj, " at pages\\registerOrLogin\\registerOrLogin.vue:128");
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
       // 发起注册/登录请求
       uni.request({
         url: _common.default.serverUrl + '/user/registOrLogin' + '?qq=565580328',
@@ -12818,6 +13122,13 @@ var _default = { data: function data() {return { console: '' };}, methods: { app
           }
         } });
 
+<<<<<<< HEAD
+=======
+
+      // common.urlRequest('/user/registOrLogi',obj,'POST',(res)=>{
+      // 	console.log(res)
+      // })
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
@@ -13146,6 +13457,7 @@ var _common = _interopRequireDefault(__webpack_require__(/*! ../../common/common
 //
 //
 //
+<<<<<<< HEAD
 var _default = { data: function data() {return { userIsLogin: '', globalUser: '' };}, onShow: function onShow() {var me = this; // 用户状态切换
     var globalUser = me.getGlobalUser('globalUser');this.globalUser = globalUser;}, methods: { cleanStorage: function cleanStorage() {uni.clearStorageSync();uni.showToast({ title: "清理缓存成功", mask: false, duration: 1500 });setTimeout(function () {uni.switchTab({ url: '../me/me' });}, 1500);}, logout: function logout() {// 请求轮播图数据
       _common.default.urlRequest('/user/logout', { userId: this.globalUser.id }, 'POST', function (res) {console.log(res.status, " at pages\\infoEditor\\infoEditor.vue:124");if (res.status === 200) {// 如果服务器返回200，代表用户在服务器退出登录成功
@@ -13154,6 +13466,13 @@ var _default = { data: function data() {return { userIsLogin: '', globalUser: ''
             var faceArr = [];faceArr.push(me.globalUser.faceImage);uni.previewImage({ urls: faceArr, current: faceArr[0] });} else if (index == 1) {// 选择上传头像
             uni.chooseImage({ count: 1, sizeType: ["compressed"], sourceType: ["album"], success: function success(res) {// 获得临时路径
                 var tempFilePath = res.tempFilePaths[0];uni.navigateTo({ url: "../faceCrop/faceCrop?tempFilePath=".concat(tempFilePath) });} });}} });}, modifyNickname: function modifyNickname() {uni.navigateTo({ url: '../modifyNickname/modifyNickname' });}, modifyBirthday: function modifyBirthday() {uni.navigateTo({ url: "../modifyBirthday/modifyBirthday" });}, modifySex: function modifySex() {uni.navigateTo({ url: "../setSex/setSex" });} } };exports.default = _default;
+=======
+var _default = { data: function data() {return { userIsLogin: '', globalUser: '' };}, onShow: function onShow() {// 用户状态切换
+    var globalUser = uni.getStorageSync('globalUser');this.globalUser = globalUser;}, methods: { cleanStorage: function cleanStorage() {uni.clearStorageSync();uni.showToast({ title: "清理缓存成功", mask: false, duration: 1500 });setTimeout(function () {uni.switchTab({ url: '../me/me' });}, 1500);}, logout: function logout() {// 请求轮播图数据
+      _common.default.urlRequest('/user/logout', { userId: this.globalUser.id }, 'POST', function (res) {console.log(res.status, " at pages\\infoEditor\\infoEditor.vue:123");if (res.status === 200) {// 如果服务器返回200，代表用户在服务器退出登录成功
+          uni.removeStorageSync('globalUser');uni.switchTab({ url: "../me/me" });} // this.carouselList = res.data
+      });} } };exports.default = _default;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
@@ -13195,6 +13514,7 @@ render._withStripped = true
 },[["../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FinfoEditor%2FinfoEditor\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/infoEditor/infoEditor.js');
+<<<<<<< HEAD
 __wxRoute = 'pages/choseFacePic/choseFacePic';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/choseFacePic/choseFacePic.js';
 
 define('pages/choseFacePic/choseFacePic.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -14625,6 +14945,8 @@ render._withStripped = true
 },[["../../../../../../../gitFile/next-superhero-dev/main.js?{\"page\":\"pages%2FsetSex%2FsetSex\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/setSex/setSex.js');
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 ;(function(global) {
     __uni_launch_ready(function() {
         var entryPagePath = __wxConfig.entryPagePath.replace('.html', '')

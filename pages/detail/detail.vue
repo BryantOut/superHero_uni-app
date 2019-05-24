@@ -1,5 +1,6 @@
 <template>
 	<view class="page">
+<<<<<<< HEAD
 <!-- 		<div class="videosBox">
 			<video id="myTrailer" :src="data.trailer" :poster="data.cover" class="hot-movie-single" controls>
 			</video>
@@ -13,6 +14,21 @@
 		<!-- <part4 :staffList="staffList" v-if="staffDataLoad" /> -->
 		<!-- staff组件 end -->
 		<!-- <mLine /> -->
+=======
+		<div class="videosBox">
+			<video id="myTrailer" :src="data.trailer" :poster="data.cover" class="hot-movie-single" controls>
+			</video>
+		</div>
+
+		<part1 :data="data" v-if="dataLoad" />
+		<mLine />
+		<part2 :plotDesc="data.plotDesc" v-if="dataLoad" />
+		<mLine />
+		<!-- staff组件 start -->
+		<part4 :staffList="staffList" v-if="staffDataLoad" />
+		<!-- staff组件 end -->
+		<mLine />
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 		<!-- plotPics组件 start -->
 		<part3 :plotPics="plotPics" v-if="dataLoad" />
 		<!-- plotPics组件 end -->

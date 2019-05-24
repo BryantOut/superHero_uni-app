@@ -6,7 +6,11 @@
 		</view>
 		<scroll-view class="scroll-view_H itemBox" scroll-x="true">
 			<view class="item" v-for="(item,index) in superheroHotList" :key="item.id">
+<<<<<<< HEAD
 				<image :src="item.cover" mode="" lazy-load></image>
+=======
+				<image :src="item.cover" mode=""></image>
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 				<view class="title">{{item.name}}</view>
 				<!-- 星星组件 start -->
 				<star :score="item.score" :showNum="1"/>

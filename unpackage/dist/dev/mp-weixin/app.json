@@ -6,12 +6,16 @@
     "pages/detail/detail",
     "pages/cover/cover",
     "pages/registerOrLogin/registerOrLogin",
+<<<<<<< HEAD
     "pages/infoEditor/infoEditor",
     "pages/choseFacePic/choseFacePic",
     "pages/faceCrop/faceCrop",
     "pages/modifyNickname/modifyNickname",
     "pages/modifyBirthday/modifyBirthday",
     "pages/setSex/setSex"
+=======
+    "pages/infoEditor/infoEditor"
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
   ],
   "subPackages": [],
   "window": {

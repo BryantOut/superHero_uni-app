@@ -232,6 +232,7 @@ var _index = _interopRequireDefault(__webpack_require__(/*! ../../star/index.vue
 //
 //
 //
+<<<<<<< HEAD
 var _default = { name: "hotNotice", props: ['superheroTrailerList'], data: function data() {return { currVideoContext: '', videoContextList: [] };}, methods: { // 播放一个视频的时候，需要暂停其他正在播放的视频
     onlyYPlay: function onlyYPlay(e) {var me = this;var currentVideoId = e.currentTarget.dataset.playingindex;if (e) {currentVideoId = e.currentTarget.dataset.playingindex;me.currVideoContext = uni.createVideoContext(currentVideoId);}var superheroTrailerList = me.superheroTrailerList;for (var i = 0; i < superheroTrailerList.length; i++) {
         var tempId = superheroTrailerList[i].id;
@@ -241,6 +242,10 @@ var _default = { name: "hotNotice", props: ['superheroTrailerList'], data: funct
         }
       }
     } } };exports.default = _default;
+=======
+var _default = { name: "hotNotice", props: ['superheroTrailerList'], data: function data() {return { currVideoContext: '' };}, methods: { // 播放一个视频的时候，需要暂停其他正在播放的视频
+    onlyYPlay: function onlyYPlay(currentVideoId) {this.currVideoContext = uni.createVideoContext(currentVideoId);var superheroTrailerList = this.superheroTrailerList;for (var i = 0; i < superheroTrailerList.length; i++) {var tempId = superheroTrailerList[i].id;if (currentVideoId != superheroTrailerList[i].id) {uni.createVideoContext(tempId).pause();}}} } };exports.default = _default;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),

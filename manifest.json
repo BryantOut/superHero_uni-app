@@ -71,6 +71,7 @@
                         "redirect_uri" : "123"
                     }
                 }
+<<<<<<< HEAD
             },
             "icons" : {
                 "ios" : {
@@ -105,6 +106,8 @@
                     "xxhdpi" : "unpackage/res/icons/144x144.png",
                     "xxxhdpi" : "unpackage/res/icons/192x192.png"
                 }
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
             }
         }
     },
@@ -118,8 +121,11 @@
             "urlCheck" : false
         },
         "usingComponents" : true
+<<<<<<< HEAD
     },
     "h5" : {
         "title" : "superHeroH5"
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
     }
 }

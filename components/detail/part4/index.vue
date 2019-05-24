@@ -3,7 +3,11 @@
 		<div class="title">剧组成员</div>
 		<scroll-view scroll-x="true" class="scroll-view_H itemBox">
 			<div class="item" v-for="(item,index) in staffList" :key="item.staffId">
+<<<<<<< HEAD
 				<image :src="item.photo" mode="" @click="showBigPic(index)" lazy-load></image>
+=======
+				<image :src="item.photo" mode="" @click="showBigPic(index)"></image>
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 				<div class="name">{{item.name}}</div>
 				<div class="actName">{{item.actName}}</div>
 				<div class="role">{{item.role==2?'演员':'导演'}}</div>

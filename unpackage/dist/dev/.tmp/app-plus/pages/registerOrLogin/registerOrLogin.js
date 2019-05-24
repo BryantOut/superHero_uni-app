@@ -151,9 +151,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
 var _common = _interopRequireDefault(__webpack_require__(/*! ../../common/common.js */ "../../../../../../../gitFile/next-superhero-dev/common/common.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
 //
 //
@@ -206,6 +209,7 @@ var _common = _interopRequireDefault(__webpack_require__(/*! ../../common/common
 //
 //
 //
+<<<<<<< HEAD
 //
 //
 //
@@ -268,12 +272,35 @@ var _default = { data: function data() {return { console: '' };}, methods: { app
       var userName = e.detail.value.username;
       var password = e.detail.value.password;
 
+=======
+var _default = { data: function data() {return {};}, methods: { appOAuthLogin: function appOAuthLogin(e) {// 获取用户登录类型
+      var logintype = e.currentTarget.dataset.logintype; // 授权登录
+      uni.login({ provider: logintype, success: function success(res) {console.log(res, " at pages\\registerOrLogin\\registerOrLogin.vue:69"); // 授权登录成功以后，获取用户的信息
+          uni.getUserInfo({ provider: logintype, success: function success(info) {console.log(info, " at pages\\registerOrLogin\\registerOrLogin.vue:74");} });} });}, // 微信小程序中登录按钮
+    wxLogin: function wxLogin(e) {// console.log(e)
+      // 通过微信开放能力，获得微信用户的基本信息
+      var userInfo = e.detail.userInfo; // 实现微信登录
+      uni.login({ provider: 'weixin', success: function success(res) {// 获得微信登录的code：授权码
+          var code = res.code; // 设置登录到哪个对应的小程序，大家可以根据自己的后端去实现业务参数
+          // 使用哪个小程序[0:NEXT超英预告][1:超英预告][2:NEXT学院电影预告]
+          var loginWhichMP = 1; // common.urlRequest(`/stu/mpWXLogin/${code}`,{"avatarUrl":userInfo.avatarUrl,"nickName":userInfo.nickName,"whichMP":loginWhichMP},'POST',(res)=>{
+          // 	console.log(res)
+          // })
+          var obj = { "avatarUrl": userInfo.avatarUrl, "nickName": userInfo.nickName, "whichMP": loginWhichMP };uni.request({ url: _common.default.serverUrl + '/stu/mpWXLogin/${code}' + '?qq=565580328', data: obj, method: "POST", success: function success(res) {console.log(res, " at pages\\registerOrLogin\\registerOrLogin.vue:104");if (res.data.status == 200) {// 保存用户信息到全局的缓存中
+                uni.setStorageSync('globalUser', res.data.data); // 切换页面跳转，使用tab切换的api
+                uni.switchTab({ url: '../me/me' });}} });} });}, // 登录/注册按钮事件
+    formSubmit: function formSubmit(e) {var userName = e.detail.value.username;var password = e.detail.value.password;
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
       var obj = {
         'username': userName,
         'password': password };
 
 
+<<<<<<< HEAD
       console.log(obj, " at pages\\registerOrLogin\\registerOrLogin.vue:176");
+=======
+      console.log(obj, " at pages\\registerOrLogin\\registerOrLogin.vue:128");
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
       // 发起注册/登录请求
       uni.request({
         url: _common.default.serverUrl + '/user/registOrLogin' + '?qq=565580328',
@@ -296,6 +323,13 @@ var _default = { data: function data() {return { console: '' };}, methods: { app
           }
         } });
 
+<<<<<<< HEAD
+=======
+
+      // common.urlRequest('/user/registOrLogi',obj,'POST',(res)=>{
+      // 	console.log(res)
+      // })
+>>>>>>> fa75a6ebd76c631e945876f515e3287c132981f8
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
